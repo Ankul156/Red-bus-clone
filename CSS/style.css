@@ -137,18 +137,22 @@ header {
     padding-left: 10px;
     padding-right: 5px;
     font-size: 14px;
+    cursor: pointer;
 }
 
 .header-help i {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .header-english i {
     font-size: 20px;
+    cursor: pointer;
 }
 
 .header-account i {
     font-size: 20px;
+    cursor: pointer;
 }
 
 /* HEADER SECTION END */
@@ -228,6 +232,7 @@ input {
     font-size: 15px;
     font-weight: 500;
     color: black;
+    cursor: pointer;
 }
 
 .self {
@@ -245,6 +250,7 @@ input {
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .change-arrow {
@@ -257,6 +263,7 @@ input {
     top: 201px;
     left: 474px;
     z-index: 3;
+    cursor: pointer;
 }
 
 .both-arrow {
@@ -303,6 +310,7 @@ input {
     font-weight: 600;
     font-size: 18px;
     color: rgb(16, 52, 217);
+    cursor: pointer;
 }
 
 .tranding-vouchers {
@@ -405,6 +413,7 @@ input {
     font-weight: 600;
     font-size: 18px;
     color: rgb(16, 52, 217);
+    cursor: pointer;
 }
 
 .transport-info {
@@ -413,6 +422,7 @@ input {
     margin-top: 10px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .transport-partner {
@@ -578,6 +588,7 @@ input {
     color: rgb(255, 255, 255);
     border: 1px solid rgb(216, 78, 85);
     font-weight: 700;
+    cursor: pointer;
 }
 
 .app-section {
@@ -698,6 +709,7 @@ input {
 .qr-play-section img {
     width: 106px;
     margin-bottom: 15px;
+    cursor: pointer;
 }
 
 .primo-section {
@@ -777,6 +789,7 @@ input {
     align-items: center;
     text-align: center;
     margin-right: 30px;
+    cursor: pointer;
 }
 
 .country-box img {
@@ -886,6 +899,7 @@ button {
     font-weight: 700;
     border: none;
     margin-left: 200px;
+    cursor: pointer;
 }
 
 button:hover {
@@ -927,6 +941,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    cursor: pointer;
 }
 
 .faq-bar-containt {
@@ -938,6 +953,7 @@ button:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .faq-bar-containt:hover {
@@ -966,6 +982,7 @@ button:hover {
     height: 340px;
     background-color: #f7f7f7;
     margin: auto;
+    cursor: pointer;
 }
 
 .text-footer-box {
@@ -1022,6 +1039,7 @@ button:hover {
 ul>li {
     margin: 10px;
     font-size: 15px;
+    cursor: pointer;
 }
 
 .end-footer {
@@ -1052,54 +1070,11 @@ ul>li {
     height: 30px;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 /*footer bar*/
-/*help bar main*/
-.help-bar {
-    width: 100%;
-    height: 700px;
-    background-color: #d84e55;
-    display: flex;
-}
 
-.helpfull2 {
-    width: 600px;
-    height: 500px;
-    margin-top: 40px;
-}
-
-.helpfull1 {
-    width: 350px;
-    height: 620px;
-    background-color: #f3f3f3;
-    margin: 40px 70px 0px 70px;
-    border-radius: 10px;
-}
-
-.help-box-sms {
-    width: 330px;
-    height: 160px;
-    background-color: white;
-    margin: 30px auto;
-}
-
-.help-boxer2 {
-    width: 330px;
-    height: 125px;
-    display: flex;
-    align-items: center;
-}
-
-.help-boxer {
-    width: 100%;
-    height: 35px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-/*help bar main*/
 /*train header*/
 .first-nav {
     width: 100%;
@@ -1142,6 +1117,10 @@ ul>li {
     color: white;
     align-items: center;
     justify-content: space-evenly;
+}
+
+.right-nav i {
+    cursor: pointer;
 }
 
 /*train header*/
@@ -1241,6 +1220,7 @@ ul>li {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .gol-b {
@@ -1313,6 +1293,7 @@ ul>li {
     align-items: center;
     justify-content: center;
     gap: 10px;
+    cursor: pointer;
 }
 
 .search-bar-box3-text {
@@ -1343,6 +1324,7 @@ ul>li {
     position: absolute;
     top: 130px;
     left: 248px;
+    cursor: pointer;
 }
 
 
@@ -1361,6 +1343,7 @@ ul>li {
     display: flex;
     align-items: center;
     padding-left: 25px;
+    cursor: pointer;
 }
 
 .trains-tickets {
@@ -1375,6 +1358,7 @@ ul>li {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .train-ticket-box-boses {
@@ -1495,6 +1479,7 @@ ul>li {
     align-items: center;
     padding-left: 30px;
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .step:hover {
